@@ -1,0 +1,40 @@
+UP TO CHANGE HOMEPAGE
+=====================
+
+Preview
+Open index.html for Swedish or index_en.html for English. Both use the
+same CSS and local assets. Open either file directly or use a static HTTP
+server. The street footage loops silently, and the round control pauses
+or resumes it. With reduced motion enabled, the still is shown until you
+press Play. The still also covers browsers that block autoplay. No build
+step or external fonts are required.
+
+Install
+1. Back up the live index.html and index_en.html.
+2. Copy index.html, index_en.html, and the up-to-change-assets folder into
+   the existing www.uptochange.com document root. Keep the assets folder
+   next to the HTML files.
+3. Keep existing product directories and other server files in place.
+   In particular, leave the eyetheisles directory and any app support
+   and privacy pages in place. Upload the three entries in step 2 only.
+4. Check https://www.uptochange.com/ and
+   https://www.uptochange.com/index_en.html after upload. To roll back,
+   restore the two original HTML files.
+
+Updates
+Edit both HTML files for copy or link changes. Shared styling is in
+up-to-change-assets/site.css. The homepage contains no analytics tags.
+
+Destinations
+Eye the Isles     https://www.uptochange.com/eyetheisles/
+Tubeist           https://apps.apple.com/app/tubeist/id6740208994
+Positorium        https://roenbaeck.github.io/positorium/
+Anchor Modeling   https://www.anchormodeling.com/
+
+Assets
+The Up to Change wordmark, street footage and poster come from the
+original site. The video is a compressed copy without an audio track.
+The Eye the Isles image is cropped from an in-game capture used by its
+homepage. The Tubeist image is from its release screenshots. Newsreader
+is distributed under the SIL Open Font License included with the assets.
+The curves on the street still illustrate alternate outcomes.
