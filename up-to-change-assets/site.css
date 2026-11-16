@@ -208,16 +208,17 @@ section[id] { scroll-margin-top: 1.5rem; }
 .method-list p { margin-top: .22rem; color: var(--muted); font-size: .93rem; }
 
 .projects { background: var(--wash); }
-.projects-grid { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1.5rem, 3vw, 2.75rem); margin-top: 2.2rem; }
+.projects-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: clamp(1.5rem, 3vw, 2.75rem); margin-top: 2.2rem; }
+.project { display: flex; flex-direction: column; }
 .project-media { display: block; overflow: hidden; aspect-ratio: 1.89; border-radius: 7px; background: var(--deep); }
 .project-media img { width: 100%; height: 100%; object-fit: cover; transition: transform 220ms ease-out; }
 .project-media:hover img { transform: scale(1.025); }
 .project-media.tubeist { background: #0c0e10; }
 .project-media.tubeist img { object-fit: contain; }
 .project-meta { margin-top: 1.3rem; color: var(--teal); font-size: .73rem; letter-spacing: .13em; text-transform: uppercase; font-weight: 700; }
-.project h3 { margin: .45rem 0 .45rem; font-size: clamp(2.4rem, 4.4vw, 3.75rem); }
-.project p:not(.project-meta) { color: var(--muted); max-width: 47ch; }
-.project .text-link { margin-top: .5rem; }
+.project h3 { margin: .45rem 0 .45rem; font-size: clamp(2rem, 3.7vw, 3.1rem); }
+.project p:not(.project-meta) { color: var(--muted); max-width: 47ch; flex: 1; }
+.project .text-link { margin-top: .5rem; align-self: flex-start; }
 
 .dark { background: var(--deep); color: var(--white); }
 .dark .eyebrow { color: #bad5cc; }
@@ -248,7 +249,12 @@ section[id] { scroll-margin-top: 1.5rem; }
   .hero-visual { aspect-ratio: 1.04; }
   .services-grid, .research-grid { gap: 3rem; }
 }
+@media (min-width: 721px) and (max-width: 980px) {
+  .project-meta { min-height: 3.3em; }
+}
 @media (max-width: 720px) {
+  .projects-grid { grid-template-columns: 1fr; gap: 2.5rem; }
+  .project h3 { font-size: 2.4rem; }
   .header-inner { min-height: 78px; gap: 1rem; }
   .brand img { width: 70px; }
   .top-nav { gap: .65rem 1rem; justify-content: flex-end; }
@@ -265,7 +271,6 @@ section[id] { scroll-margin-top: 1.5rem; }
   .top-nav { gap: .45rem; }
   .top-nav a { font-size: .8rem; }
   .top-nav .language { padding-inline: .48rem; }
-  .projects-grid { grid-template-columns: 1fr; gap: 2.5rem; }
   .hero-visual { aspect-ratio: 1.25; }
   .use-cases li { align-items: flex-start; flex-direction: column; }
 }
