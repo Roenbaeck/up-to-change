@@ -15,9 +15,9 @@ Install
    the existing www.uptochange.com document root. Keep the assets folder
    next to the HTML files.
 3. Keep existing product directories and other server files in place.
-   In particular, leave the eyetheisles, corridorium, and tubeist
-   directories and any app support and privacy pages in place. Upload
-   the three entries in step 2 only.
+   In particular, leave the eyetheisles, corridorium, unmakemyday, and
+   tubeist directories and any app support and privacy pages in place.
+   Upload the three entries in step 2 only.
 4. Check https://www.uptochange.com/ and
    https://www.uptochange.com/index_en.html after upload. To roll back,
    restore the two original HTML files.
@@ -29,6 +29,7 @@ up-to-change-assets/site.css. The homepage contains no analytics tags.
 Destinations
 Eye the Isles     https://www.uptochange.com/eyetheisles/
 Corridorium        https://www.uptochange.com/corridorium/
+Unmake My Day     https://www.uptochange.com/unmakemyday/
 Tubeist           https://www.uptochange.com/tubeist/
 Tubeist Scorer    https://www.uptochange.com/tubeist-scorer/
 Positorium        https://positorium.com/
@@ -39,7 +40,9 @@ The Up to Change wordmark, street footage and poster come from the
 original site. The video is a compressed copy without an audio track.
 The Eye the Isles image is cropped from an in-game capture used by its
 homepage. The Corridorium image uses the artwork from its homepage
-social image. The Tubeist image is from its release screenshots.
+social image. The Unmake My Day image is from its homepage social
+image, a rotoscoped in-game capture. The Tubeist image is from its
+release screenshots.
 Newsreader is distributed under the SIL Open Font License included
 with the assets.
 The curves on the street still illustrate alternate outcomes.
